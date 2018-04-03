@@ -1,0 +1,11 @@
+package com.gontoseries;
+
+public class Tea implements IHotDrink {
+
+	public void prepareHotDrink() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

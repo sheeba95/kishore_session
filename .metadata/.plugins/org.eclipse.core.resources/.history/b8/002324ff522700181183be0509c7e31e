@@ -1,0 +1,9 @@
+package com.gontoseries;
+
+public class Tea implements IHotDrink {
+
+	public Tea() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

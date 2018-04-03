@@ -1,0 +1,10 @@
+package com.gontoseries;
+
+public class Tea implements IHotDrink {
+
+	public void prepareHotDrink() {
+		System.out.println("I am Preparing Tea using setter");
+	}
+
+	
+}

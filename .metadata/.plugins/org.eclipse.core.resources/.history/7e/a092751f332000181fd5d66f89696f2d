@@ -1,0 +1,13 @@
+package pack;
+
+import java.util.Scanner;
+
+import org.hibernate.SessionFactory;
+
+public class TestCRUD {
+	
+	Scanner input = new Scanner(System.in);
+	SessionFactory sf = HibernateUtility.getSessionFactory();
+	
+
+}

@@ -1,0 +1,10 @@
+package com.gontoseries;
+
+public class Restaurant {
+	
+	IHotDrink hotDrink;
+	Restaurant(IHotDrink hotDrink) {
+		this.hotDrink = hotDrink;
+	}
+
+}

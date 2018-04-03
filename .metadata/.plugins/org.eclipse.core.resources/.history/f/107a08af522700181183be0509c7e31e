@@ -1,0 +1,6 @@
+package com.gontoseries;
+
+public interface HotDrink {
+	public void prepareHotDrink();
+
+}

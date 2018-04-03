@@ -1,0 +1,16 @@
+package com.gontoseries;
+
+import java.util.List;
+
+public class Restaurant {
+	
+	private List restaurantWaiterList;
+	public void setRestaurantWaiterList(List restaurantwaiterList) {
+		this.restaurantWaiterList = restaurantwaiterList; 
+	}
+	
+	public void prepareHotDrink() {
+		hotDrink.prepareHotDrink();
+	}
+
+}

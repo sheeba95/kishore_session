@@ -1,0 +1,9 @@
+package com.gontoseries;
+
+public class DemoBeanPostProcessor {
+
+	public DemoBeanPostProcessor() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,27 @@
+package pack;
+
+import java.util.Scanner;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+public class TestCRUD {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		SessionFactory sf = HibernateUtility.getSessionFactory();
+		
+		Session s = sf.openSession();
+		Transaction tx = s.beginTransaction();
+		System.out.println("Enter an ID:");
+		int tempId = input.nextInt();
+		
+		
+		s.close();
+		sf.close();
+
+	}
+
+		
+	}
+	

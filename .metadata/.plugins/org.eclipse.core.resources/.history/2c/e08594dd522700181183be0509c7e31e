@@ -1,0 +1,9 @@
+package com.gontoseries;
+
+public class Tea {
+
+	public Tea() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

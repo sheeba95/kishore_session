@@ -1,0 +1,22 @@
+package com.gontoseries;
+
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+public class Restaurant {
+	
+	public void greetCustomer() {
+		System.out.println("welcomeNote");
+	}
+	
+	@PostConstruct
+	public void init() {
+		System.out.println("init mehtod");
+	}
+	@PreDestroy
+	public void destroy() {
+		System.out.println("destroy mehtod");
+	}
+}
